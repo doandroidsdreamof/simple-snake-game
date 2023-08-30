@@ -169,7 +169,6 @@ function game() {
 		initIndicators();
 		createSnake();
 		drawSnake();
-		drawMap();
 	}
 }
 setInterval(game, 1000 / FPS);
